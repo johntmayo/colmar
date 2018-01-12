@@ -1,0 +1,61 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+body {
+  width: 960px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+video {
+  width: 60%;
+}
+
+/*navigation section*/
+
+/*banner section*/
+.banner img {
+  width: 60%;
+}
+
+/*first container section*/
+
+.first-container-right {
+  width: 40%;
+}
+
+.first-container-right img {
+  width: 35%;
+}
+
+/*start learning section*/
+.all-programs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.program {
+  margin: 5px;
+  width: 250px;
+}
+
+.program img {
+  width: 250px;
+  height: auto;
+}
+/*thesis section*/
+
+.thesis-right img {
+  width: 35%;
+  height: auto;
+}
+
+/*footer section*/
