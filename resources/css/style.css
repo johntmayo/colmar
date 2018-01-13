@@ -51,22 +51,6 @@ video {
 }
 
 
-.navigation-mobile {
-  height: 64px;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 480px;
-}
-
-.navigation-mobile img {
-  height: 80%;
-}
-
-
-
-
 
 /*banner section*/
 
@@ -95,6 +79,12 @@ video {
   padding: 8px 0px;
   text-align: center;
 }
+
+.button:hover {
+  background-color: #47e6ff;
+}
+
+
 /*first container section*/
 
 .first-container {
@@ -281,10 +271,80 @@ footer li {
 
 /* ---------------------------- MEDIA QUERIES ---------------------------- */
 
+.navigation-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 480px) {
+
+  html {
+    max-width: 480px;
+  }
+
   .navigation {
     display: none;
   }
+
+  .navigation-mobile {
+    display: block;
+    height: 64px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+  }
+
+  .navigation-mobile img {
+    height: 70%;
+  }
+
+  .banner {
+    display: block;
+  }
+
+  .banner img {
+    width: 100%;
+    max-width: 480px;
+    margin: 0px 0px;
+  }
+
+  .banner-content {
+    max-width: 400px;
+    padding-top: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+  }
+
+  .button {
+    width: 60%;
+    background-color: #9b9b9b;
+  }
+
+  .button:active {
+    background-color: #47e6ff;
+  }
+
+  .first-container-left {
+    display: none;
+  }
+
+  .callout {
+    display: block;
+  }
+
+  .callout img {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+  } /* end media query */
 
 @media only screen and (min-width: 480px) {
   .navigation-mobile {
