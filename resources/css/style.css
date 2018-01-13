@@ -338,15 +338,45 @@ footer li {
     width: 100%;
   }
 
+  .image-desktop {
+    display: none;
+  }
 
+  .image-mobile {
+    margin-bottom: 16px;
+  }
 
+  .callout-campus {
+    display: none;
+  }
 
+  .first-container-right img {
+    max-width: 400px;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
 
+  .first-container-right h2, p{
+    margin-top: 16px;
+    margin-left: 16px;
+  }
 
+  .callout:hover {
+    background-color: #F5F5F5;
+  }
 
   } /* end media query */
 
 @media only screen and (min-width: 480px) {
   .navigation-mobile {
+    display: none;
+  }
+
+  .image-mobile {
+    display: none;
+  }
+
+  .callout-mobile {
     display: none;
   }
