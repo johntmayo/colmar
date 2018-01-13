@@ -366,6 +366,30 @@ footer li {
     background-color: #F5F5F5;
   }
 
+  .start-learning {
+    display: none;
+  }
+
+  .thesis-right {
+    display: none;
+  }
+
+  .start-learning-mobile {
+    max-width: 400px;
+  }
+
+  .start-learning-mobile h1 {
+    text-align: center;
+  }
+
+  .start-learning-button {
+    background-color: #F5F5F5;
+    margin: 10px;
+    padding: 16px 0px 24px 16px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
   } /* end media query */
 
 @media only screen and (min-width: 480px) {
@@ -378,5 +402,13 @@ footer li {
   }
 
   .callout-mobile {
+    display: none;
+  }
+
+  .start-learning-mobile {
+    display: none;
+  }
+
+  .thesis-exhibit-mobile {
     display: none;
   }
