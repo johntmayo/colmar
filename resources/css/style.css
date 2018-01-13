@@ -51,6 +51,23 @@ video {
 }
 
 
+.navigation-mobile {
+  height: 64px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 480px;
+}
+
+.navigation-mobile img {
+  height: 80%;
+}
+
+
+
+
+
 /*banner section*/
 
 .banner {
@@ -109,11 +126,33 @@ video {
 }
 
 .callout {
-  border-bottom: 3px solid Gainsboro;
-  height: 25%;
+  height: 30%;
 }
 
 .callout:hover {
+  background-color: Gainsboro;
+}
+
+/*special callout-campus rules */
+.callout-campus {
+  border-top: 3px solid Gainsboro;
+  border-bottom: 3px solid Gainsboro;
+}
+
+.callout-campus img {
+  width: 35%;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  float: left;
+}
+
+.callout-campus {
+  border-top: 3px solid Gainsboro;
+  height: 30%;
+}
+
+.callout-campus:hover {
   background-color: Gainsboro;
 }
 
@@ -204,6 +243,23 @@ video {
   margin-right: 18px;
 }
 
+.callout-thesis img {
+  width: 35%;
+  padding-top: 16px;
+  padding-right: 0px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+
+}
+
+.callout-thesis {
+  height: 50%;
+}
+
+.callout-thesis:hover {
+  background-color: Gainsboro;
+}
+
 /*footer section*/
 
 footer {
@@ -222,3 +278,15 @@ footer li {
   padding-left: 10px;
   padding-right: 20px;
 }
+
+/* ---------------------------- MEDIA QUERIES ---------------------------- */
+
+@media only screen and (max-width: 480px) {
+  .navigation {
+    display: none;
+  }
+
+@media only screen and (min-width: 480px) {
+  .navigation-mobile {
+    display: none;
+  }
